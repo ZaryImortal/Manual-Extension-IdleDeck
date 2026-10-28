@@ -1,7 +1,7 @@
 # Manual-Extension-IdleDeck
 Add your own extensions to your IdleDeck accounts.
 
-The files were created based on adding extensions for the idle game [pokeidle.io](https://pokeidle.io/?ref=WMZQJQ7), but you can edit them for any game you like, simply edit this part of the code `s => typeof s.url === 'string' && s.url.includes('pokeidle')` with your game's URL name, example: `s.url.includes('idleworld')` .
+The files were created based on adding extensions for the idle game [pokeidle.io](https://pokeidle.io/?ref=WMZQJQ7), but you can edit them for any game you like, simply edit this part of the code `s.url.includes('pokeidle')` with your game's URL name, example: for the game poke.idleworld.com `s.url.includes('idleworld')` .
 
 # Tutorial
 Add the two files to the folder containing the extension files, as shown in the image.
